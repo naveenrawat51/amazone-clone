@@ -6,7 +6,7 @@ import HomePage from "./Homepage/Homepage";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Router>
         <Switch>
           <Route path="/checkout">
