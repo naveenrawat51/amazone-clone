@@ -1,7 +1,7 @@
 {
-    "watchFolder": "src/",   
-    "outputFolder": "src/css/",   
-    "sourceMap": false,
-    "runOnce": false,
-    "enableJs": true
+  "watchFolder": "src",
+  "outputFolder": "src/css/",
+  "sourceMap": false,
+  "runOnce": false,
+  "enableJs": true
 }
