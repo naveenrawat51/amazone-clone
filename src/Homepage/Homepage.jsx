@@ -23,8 +23,6 @@ function Homepage() {
     );
   });
 
-  console.log("allProductsData: ", allProductsData);
-
   return (
     <div className="home">
       <img
