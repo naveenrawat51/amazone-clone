@@ -19,11 +19,10 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev-start": "concurrently --kill-others \"less-watch-compiler src src --config less-watcher.config.json\" \"react-scripts start\"",
+    "start": "concurrently --kill-others \"less-watch-compiler src src --config less-watcher.config.json\" \"react-scripts start\"",
     "prettier": "npx prettier --write ."
   },
   "eslintConfig": {
