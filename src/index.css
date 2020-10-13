@@ -1,7 +1,9 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background: #eaeded;
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }

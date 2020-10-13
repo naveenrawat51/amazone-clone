@@ -9,12 +9,14 @@ function reducer(state = initialState, action) {
       return { ...state, basket: [...state.basket, action.payload] };
     case "REMOVE_FROM_BASKET":
       const newBasket = [...state.basket];
-      const findEle = state.basket.find(product => product.id === action.payload.id);
+      const findEle = state.basket.find(
+        (product) => product.id === action.payload.id
+      );
       const findIndex = newBasket.indexOf(findEle);
       if (findIndex !== -1) {
         newBasket.splice(findIndex, 1);
       }
-      return { ...state, basket: newBasket}
+      return { ...state, basket: newBasket };
     default:
       return state;
   }
